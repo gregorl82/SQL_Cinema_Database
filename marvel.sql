@@ -86,4 +86,4 @@ DELETE FROM people WHERE name IN ('Marge Simpson', 'Itchy', 'Ned Flanders');
 
 -- OR
 
-DELETE FROM movies WHERE title = 'Iron Man' OR year = '2011';
+DELETE FROM movies WHERE title = 'Iron Man' OR title = 'Iron Man 2';
