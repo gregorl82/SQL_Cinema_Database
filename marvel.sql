@@ -51,6 +51,7 @@ INSERT INTO movies (title, year, show_time) VALUES ('Thor: Ragnarok', 2017, '22:
 INSERT INTO movies (title, year, show_time) VALUES ('Black Panther', 2018, '21:00');
 
 -- Return ALL the data in the ‘movies’ table.
+SELECT * FROM movies;
 -- Return ONLY the name column from the ‘people’ table
 -- Oops! Someone spelled Krusty The Clown’s name wrong! Change it to reflect the proper spelling (Crusty should be Krusty).
 -- Return ONLY Homer Simpson’s name from the ‘people’ table.
