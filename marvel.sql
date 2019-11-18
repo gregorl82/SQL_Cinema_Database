@@ -77,3 +77,13 @@ INSERT INTO movies (title, year, show_time) VALUES ('Avengers: Infinity War', 20
 -- The cinema would like to make the Iron Man movies a triple billing. Find out the show time of “Iron Man 2” and set the show time of “Iron Man 3” to start two hours later.
 SELECT show_time FROM movies WHERE title = 'Iron Man 2';
 UPDATE movies SET show_time = '20:45' WHERE title = 'Iron Man 3';
+
+-- Extension
+
+-- Research how to delete multiple entries from your table in a single command.
+
+DELETE FROM people WHERE name IN ('Marge Simpson', 'Itchy', 'Ned Flanders');
+
+-- OR
+
+DELETE FROM movies WHERE title = 'Iron Man' OR year = '2011';
